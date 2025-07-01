@@ -1,0 +1,20 @@
+{
+  "name": "tnb-bill-calculator",
+  "version": "1.0.0",
+  "description": "Calculate your household electricity bill for 2016",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "start": "npm run dev"
+  },
+  "keywords": ["tnb", "electricity", "bill", "calculator", "malaysia"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
